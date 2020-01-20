@@ -1,0 +1,7 @@
+#!/bin/bash -x
+read -p "Enter year::" year
+read -p "Enter month::" month
+read -p "Enter day::" day
+y=$(($year-(14-$month)/12))
+x=$(($y+$y/4-$y/100+$
+my/400)) 

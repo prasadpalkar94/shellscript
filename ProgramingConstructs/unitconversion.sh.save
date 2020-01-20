@@ -1,0 +1,5 @@
+#!/bin/bash -x
+read -p "Enter a unit::" a
+ec
+
+
